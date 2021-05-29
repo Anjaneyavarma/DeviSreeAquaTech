@@ -1,0 +1,64 @@
+.contact-container{
+    margin:10px;    
+}
+
+button{
+    margin-top: 12px;
+    border: 2px solid #034a79;
+    height: 45px;
+    background: transparent;
+    background-color: #1AA3FF;
+    font-size: 20px;
+    width: 150px;
+    cursor : pointer;
+}
+h1 span{
+    margin-top: 10px;
+    border-bottom: 1px solid #034a79;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.locate-header{
+    display: flex;
+    align-items: center;
+}
+.locate-container h2{
+    margin-left: 10px;
+    border-left: 2px solid #1AA3FF;
+    font-size: 22px;
+    color: #1AA3FF;
+}
+.locate-container h2 span{
+    margin-left: 10px;
+}
+
+.locate-map{
+    margin: 10px;
+    width: auto;
+    height: 50vh;
+}
+
+.locate-map iframe{
+    border: 1px solid black;
+    border-radius: 5vh;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-details{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .bussiness-container{
+        display: none;
+    }
+}
